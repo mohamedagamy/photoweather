@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/gallery_fragment"
+        android:icon="@drawable/ic_history"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:title="Gallery" />
+
+    <item
+        android:id="@+id/camera_fragment"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_camera"
+        android:iconTint="@color/white"
+        android:title="Home" />
+
+   <!-- <item
+        android:id="@+id/permissions_fragment"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share"
+        android:iconTint="@color/white"
+        android:title="Share" />-->
+</menu>
